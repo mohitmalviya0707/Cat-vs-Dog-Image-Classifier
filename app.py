@@ -32,7 +32,6 @@ def predict_image(image):
     else:
         return "🐱 Cat"
 
-# -------------------------------
 # Show Result
 # -------------------------------
 if uploaded_file is not None:
