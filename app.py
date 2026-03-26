@@ -19,7 +19,7 @@ uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg
 
 # -------------------------------
 # Prediction Function
-# -------------------------------
+
 def predict_image(image):
     img = load_img(image, target_size=(150, 150))   # training size same hona chahiye
     img_array = img_to_array(img)
