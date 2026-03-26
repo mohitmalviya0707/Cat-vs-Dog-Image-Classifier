@@ -33,7 +33,7 @@ def predict_image(image):
         return "🐱 Cat"
 
 # Show Result
-# -------------------------------
+
 if uploaded_file is not None:
     st.image(uploaded_file, caption="Uploaded Image", use_column_width=True)
 
