@@ -9,7 +9,7 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 model = load_model("model.h5")   # apna trained model yaha rakho
 
 # App Title
-# -------------------------------
+
 st.title("🐶 Cat vs Dog Classifier")
 st.write("Upload an image and the model will predict whether it's a Cat or Dog.")
 
