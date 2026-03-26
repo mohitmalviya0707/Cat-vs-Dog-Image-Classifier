@@ -17,7 +17,7 @@ st.write("Upload an image and the model will predict whether it's a Cat or Dog."
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
 
-# -------------------------------
+
 # Prediction Function
 
 def predict_image(image):
